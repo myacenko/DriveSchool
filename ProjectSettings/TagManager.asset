@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Floor
   - Check0
+  - Check1
   layers:
   - Default
   - TransparentFX

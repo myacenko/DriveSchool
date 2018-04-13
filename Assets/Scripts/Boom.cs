@@ -17,14 +17,21 @@ public class Boom : MonoBehaviour {
 
     void OnCollisionEnter(Collision hit)
     {
-        if (hit.gameObject.CompareTag("Floor")) return;
-         if (hit.gameObject.CompareTag("Check0"))
+        if (hit.gameObject.CompareTag("Floor"))
+            return;
+        if (hit.gameObject.CompareTag("Check0"))
         {
-            PlayerPrefs.SetInt(currentScene+"_Check0" , 1);
+            PlayerPrefs.SetInt(currentScene + "_Check0", 1);
             SceneManager.LoadScene(nextSceneName);
             return;
         }
-
+        if (hit.gameObject.CompareTag("Check1"))
+        {
+            PlayerPrefs.SetInt(currentScene + "_Check1", 1);
+            SceneManager.LoadScene(nextSceneName);
+            return;
+        }
+        PlayerPrefs.SetInt(currentScene + "_Crash", 1);
         boomPlayerAS.Play();
     }
 
