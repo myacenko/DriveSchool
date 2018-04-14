@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Boom : MonoBehaviour {
     public AudioSource boomPlayerAS;
     public AudioClip boomSound;
-    public string nextSceneName;
     public string currentScene;
     void Start()
     {
@@ -22,13 +21,13 @@ public class Boom : MonoBehaviour {
         if (hit.gameObject.CompareTag("Check0"))
         {
             PlayerPrefs.SetInt(currentScene + "_Check0", 1);
-            SceneManager.LoadScene(nextSceneName);
+            GetComponent<EndLesson>().ShowResult();
             return;
         }
         if (hit.gameObject.CompareTag("Check1"))
         {
             PlayerPrefs.SetInt(currentScene + "_Check1", 1);
-            SceneManager.LoadScene(nextSceneName);
+            GetComponent<EndLesson>().ShowResult();
             return;
         }
         PlayerPrefs.SetInt(currentScene + "_Crash", 1);
