@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Boom : MonoBehaviour {
     public AudioSource boomPlayerAS;
     public AudioClip boomSound;
+    public Light TrafficLight;
     public string currentScene;
     void Start()
     {
@@ -27,6 +28,12 @@ public class Boom : MonoBehaviour {
         if (hit.gameObject.CompareTag("Check1"))
         {
             PlayerPrefs.SetInt(currentScene + "_Check1", 1);
+            GetComponent<EndLesson>().ShowResult();
+            return;
+        }
+        if (hit.gameObject.CompareTag("StopLine")&& TrafficLight.intensity>0.0f)
+        {
+            PlayerPrefs.SetInt(currentScene + "_StopLine", 1);
             GetComponent<EndLesson>().ShowResult();
             return;
         }

@@ -7,5 +7,6 @@ public class EndLesson : MonoBehaviour {
 public void ShowResult()
     {
         result.enabled = true;
+        result.GetComponent<ShowResult>().SetText();
     }
 }

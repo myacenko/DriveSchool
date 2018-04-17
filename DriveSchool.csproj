@@ -336,6 +336,7 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
     <Compile Include="Assets\Scripts\Boom.cs" />
     <Compile Include="Assets\Scripts\CheckItems.cs" />
+    <Compile Include="Assets\Scripts\ClearAllPrefs.cs" />
     <Compile Include="Assets\Scripts\Drive.cs" />
     <Compile Include="Assets\Scripts\EndLesson.cs" />
     <Compile Include="Assets\Scripts\ExitFromSchool.cs" />

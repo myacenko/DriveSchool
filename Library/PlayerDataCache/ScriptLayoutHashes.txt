@@ -167,7 +167,7 @@ ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRChromaticAberration
 810d8d43cd51d8a051082c83d9c88643 Assembly-CSharp.dll:.SwitchNextSlide
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
-f96a42f4378afe183deae969412f28be Assembly-CSharp.dll:.Boom
+81b0c5b67ced059e2f8d124756c54c8a Assembly-CSharp.dll:.Boom
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -181,6 +181,7 @@ a8ed45ab553b07236625df6cc6ac449c Assembly-CSharp.dll:.OVRLint
 715ee802f49103c54cba7971ac57cac0 Assembly-CSharp.dll:UnityEngine.EventSystems.OVRInputModule
 584795015275d7765225ad872c0e8bd8 Assembly-CSharp.dll:.OVRGrabber
 e6139c3cfb1a4136f1c833022be63c02 Assembly-CSharp.dll:.EndLesson
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearAllPrefs
 59df83248622909e8ee9dcc4baff510c Assembly-CSharp.dll:.TrafficLightsControl
 63476c3cd723e567416f94104be571f7 Assembly-CSharp.dll:.LoadScene
 9b2ba2c7785651d99cf7f3dadc050a03 Assembly-CSharp.dll:.SwitchTest
