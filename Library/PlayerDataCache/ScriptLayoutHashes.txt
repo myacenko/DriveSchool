@@ -9,6 +9,7 @@ Assets/Scenes/Test/TestRoom.unity
 Assets/Scenes/FreeDrive/PreFlyCheck.unity
 SceneListEnd?
 a935519ff56e5eee54d08ee4da0929a0 Assembly-CSharp.dll:.OVRMixedRealityCaptureSettings
+aa733df71391991e2699620d4494c57b Assembly-CSharp.dll:.AllScoreBoard
 7df47d262399a6f845c2ed06b92cba9b Assembly-CSharp.dll:.OVRCameraRig
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack

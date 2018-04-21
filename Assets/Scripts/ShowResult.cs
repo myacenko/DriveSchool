@@ -8,7 +8,7 @@ public class ShowResult : MonoBehaviour
 {
     public Canvas result;
     public Text resultText;
-    int countOfRate = 0;
+    private int countOfRate = 0;
     public string currentScene;
     void Start()
     {
@@ -16,6 +16,7 @@ public class ShowResult : MonoBehaviour
     }
     public void SetText()
     {
+        countOfRate = 0;
         resultText.text = "";
         switch (currentScene)
         {
@@ -41,7 +42,7 @@ public class ShowResult : MonoBehaviour
                     countOfRate--;
                 }
                 // зеркала
-                if (PlayerPrefs.GetInt("PreFlyCheck_Miror1", 0) == 1 && PlayerPrefs.GetInt("PreFlyCheck_Miror2", 0) == 1)
+                if (PlayerPrefs.GetInt("PreFlyCheck_Miror1", 0) == 1 || PlayerPrefs.GetInt("PreFlyCheck_Miror2", 0) == 1)
                 {
                     resultText.text += "Зеркала настроены(+1 балл)\n";
                     countOfRate++;

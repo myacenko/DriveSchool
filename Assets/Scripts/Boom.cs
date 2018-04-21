@@ -31,10 +31,12 @@ public class Boom : MonoBehaviour {
             GetComponent<EndLesson>().ShowResult();
             return;
         }
-        if (hit.gameObject.CompareTag("StopLine")&& TrafficLight.intensity>0.0f)
+        if (hit.gameObject.CompareTag("StopLine") )
         {
+            if(TrafficLight.intensity > 0.0f) { 
             PlayerPrefs.SetInt(currentScene + "_StopLine", 1);
             GetComponent<EndLesson>().ShowResult();
+        }
             return;
         }
         PlayerPrefs.SetInt(currentScene + "_Crash", 1);

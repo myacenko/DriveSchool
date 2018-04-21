@@ -9,28 +9,24 @@ public class Reticle : MonoBehaviour {
 
 	public Camera CameraFacing;
 	private Vector3 originalScale;
+	public LayerMask mask = -1;
 
 	public void Start(){
 		originalScale=transform.localScale;
+		originalScale =  new Vector3(0.05f, 0.05f, 0.05f);
 	}
 
 	public void Update(){
 		RaycastHit hit;
-		float distance=2.0f;
-        if (Physics.Raycast(new Ray(CameraFacing.transform.position,
-                    CameraFacing.transform.rotation * Vector3.forward),
-                   out hit))
-        {
-//            if (Physics.Raycast(new Ray(CameraFacing.transform.position,
-//                        CameraFacing.transform.TransformDirection( Vector3.forward)),
-//                        out hit))
-//            {
-                distance = hit.distance;
+		float distance;
+		if(Physics.Raycast (new Ray(CameraFacing.transform.position,
+					CameraFacing.transform.rotation*Vector3.forward),
+				    out hit,Mathf.Infinity, mask.value)){
+			distance=hit.distance;
 		} else {
-//            distance = CameraFacing.farClipPlane;
-            distance = CameraFacing.farClipPlane;
-        }
-        transform.position=CameraFacing.transform.position+
+			distance=CameraFacing.farClipPlane * 0.95f;
+		}
+		transform.position=CameraFacing.transform.position+
 			CameraFacing.transform.rotation*Vector3.forward * distance;
 		transform.LookAt(CameraFacing.transform.position);
 		transform.Rotate(0.0f,180.0f,0.0f);
