@@ -73,12 +73,12 @@ public class ShowResult : MonoBehaviour
                 }
                 if (PlayerPrefs.GetInt("TraficLightWithSegment_StopLine", 0) == 1)
                 {
-                    resultText.text += "Вы проехали на разрешающий сигнал светофора";
+                    resultText.text += "Вы проехали на разрешающий сигнал светофора(+1 балл)\n";
                     countOfRate += 1;
                 }
                 else
                 {
-                    resultText.text += "Вы проехали на запрещающий сигнал светофора";
+                    resultText.text += "Вы проехали на запрещающий сигнал светофора(-1 балл)\n";
                     countOfRate -= 1;
                 }
                 break;

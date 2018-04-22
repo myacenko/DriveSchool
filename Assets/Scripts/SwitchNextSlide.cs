@@ -21,6 +21,8 @@ public class SwitchNextSlide : MonoBehaviour {
             subj.text = texts[i];
             yield return new WaitForSeconds(15.0f);
         }
+        picture.enabled = false;
+        subj.text = "Конец занятия";
     }
 }
     

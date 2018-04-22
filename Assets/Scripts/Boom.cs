@@ -35,8 +35,7 @@ public class Boom : MonoBehaviour {
         {
             if(TrafficLight.intensity > 0.0f) { 
             PlayerPrefs.SetInt(currentScene + "_StopLine", 1);
-            GetComponent<EndLesson>().ShowResult();
-        }
+            }
             return;
         }
         PlayerPrefs.SetInt(currentScene + "_Crash", 1);

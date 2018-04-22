@@ -4464,7 +4464,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4892612691773410, guid: 65bb5d3c23cf4a64ab79bd88dce1464d, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65bb5d3c23cf4a64ab79bd88dce1464d, type: 2}
@@ -5043,7 +5043,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41c4b537d694ad44ab8daff380b0f24b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41c4b537d694ad44ab8daff380b0f24b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

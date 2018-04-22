@@ -12,12 +12,12 @@ public class AllScoreBoard : MonoBehaviour {
         result.enabled = false;
         if (PlayerPrefs.GetInt("AllDriveScore",0)!=0)
         {
-            resultText.text = "Вы набрали за вожден6ие: " + PlayerPrefs.GetInt("AllDriveScore", 0) + "\n" + "Максимальный балл: 5";
+            resultText.text = "Вы набрали за вождение: " + PlayerPrefs.GetInt("AllDriveScore", 0) + "\n" + "Максимальный балл: 10";
             result.enabled = true;
         }
         if (PlayerPrefs.GetInt("AllTestScore", 0) != 0)
         {
-            resultText.text += "Вы набрали на тестировании: " + PlayerPrefs.GetInt("AllTestScore", 0) + "\n" + "Максимальный балл: 5";
+            resultText.text = "Вы набрали на тестировании: " + PlayerPrefs.GetInt("AllTestScore", 0) + "\n" + "Максимальный балл: 2";
             result.enabled = true;
         }
     }

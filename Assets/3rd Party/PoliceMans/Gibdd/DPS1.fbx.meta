@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 7c29a6ad797f5644ca571ba368e62188
+timeCreated: 1524330192
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bip01
+    100004: Bip01 Head
+    100006: Bip01 Head_end
+    100008: Bip01 L Calf
+    100010: Bip01 L Clavicle
+    100012: Bip01 L Foot
+    100014: Bip01 L Forearm
+    100016: Bip01 L Hand
+    100018: Bip01 L Hand_end
+    100020: Bip01 L Thigh
+    100022: Bip01 L UpperArm
+    100024: Bip01 LDigit11
+    100026: Bip01 LDigit11_end
+    100028: Bip01 LPlatform
+    100030: Bip01 LPlatform_end
+    100032: Bip01 Neck
+    100034: Bip01 Pelvis
+    100036: Bip01 PelvisBone01
+    100038: Bip01 R Calf
+    100040: Bip01 R Clavicle
+    100042: Bip01 R Foot
+    100044: Bip01 R Forearm
+    100046: Bip01 R Hand
+    100048: Bip01 R Hand_end
+    100050: Bip01 R Thigh
+    100052: Bip01 R UpperArm
+    100054: Bip01 RDigit11
+    100056: Bip01 RDigit11_end
+    100058: Bip01 RPlatform
+    100060: Bip01 RPlatform_end
+    100062: Bip01 Spine1
+    100064: Bip01 Spine2
+    100066: Bip01 Spine4
+    100068: Boot_L
+    100070: Boot_R
+    100072: //RootNode
+    100074: DPSnik
+    100076: Eye_002
+    100078: Eye_1
+    100080: Gezl
+    100082: Giletka
+    100084: HEAD
+    100086: headusOBJexport
+    100088: headusOBJexport001
+    100090: KITEL
+    100092: SHTANI
+    100094: Svistok
+    100096: TopoSurface001
+    100098: TopoSurface002
+    100100: Znak
+    400000: Armature
+    400002: Bip01
+    400004: Bip01 Head
+    400006: Bip01 Head_end
+    400008: Bip01 L Calf
+    400010: Bip01 L Clavicle
+    400012: Bip01 L Foot
+    400014: Bip01 L Forearm
+    400016: Bip01 L Hand
+    400018: Bip01 L Hand_end
+    400020: Bip01 L Thigh
+    400022: Bip01 L UpperArm
+    400024: Bip01 LDigit11
+    400026: Bip01 LDigit11_end
+    400028: Bip01 LPlatform
+    400030: Bip01 LPlatform_end
+    400032: Bip01 Neck
+    400034: Bip01 Pelvis
+    400036: Bip01 PelvisBone01
+    400038: Bip01 R Calf
+    400040: Bip01 R Clavicle
+    400042: Bip01 R Foot
+    400044: Bip01 R Forearm
+    400046: Bip01 R Hand
+    400048: Bip01 R Hand_end
+    400050: Bip01 R Thigh
+    400052: Bip01 R UpperArm
+    400054: Bip01 RDigit11
+    400056: Bip01 RDigit11_end
+    400058: Bip01 RPlatform
+    400060: Bip01 RPlatform_end
+    400062: Bip01 Spine1
+    400064: Bip01 Spine2
+    400066: Bip01 Spine4
+    400068: Boot_L
+    400070: Boot_R
+    400072: //RootNode
+    400074: DPSnik
+    400076: Eye_002
+    400078: Eye_1
+    400080: Gezl
+    400082: Giletka
+    400084: HEAD
+    400086: headusOBJexport
+    400088: headusOBJexport001
+    400090: KITEL
+    400092: SHTANI
+    400094: Svistok
+    400096: TopoSurface001
+    400098: TopoSurface002
+    400100: Znak
+    2100000: DPS_mat
+    4300000: Gezl
+    4300002: Eye_002
+    4300004: Eye_1
+    4300006: Znak
+    4300008: KITEL
+    4300010: SHTANI
+    4300012: Boot_R
+    4300014: Boot_L
+    4300016: headusOBJexport
+    4300018: Svistok
+    4300020: headusOBJexport001
+    4300022: HEAD
+    4300024: Giletka
+    7400000: Armature|Armature|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: Boot_L
+    13700002: Boot_R
+    13700004: Eye_002
+    13700006: Eye_1
+    13700008: Gezl
+    13700010: Giletka
+    13700012: HEAD
+    13700014: headusOBJexport
+    13700016: headusOBJexport001
+    13700018: KITEL
+    13700020: SHTANI
+    13700022: Svistok
+    13700024: Znak
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
