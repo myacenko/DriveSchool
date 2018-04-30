@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1329
     height: 619
-  m_MinSize: {x: 683, y: 342}
-  m_MaxSize: {x: 12008, y: 8042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 69
+  controlID: 27
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1052
     height: 619
-  m_MinSize: {x: 406, y: 342}
-  m_MaxSize: {x: 8006, y: 8042}
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 70
+  controlID: 28
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 71
+  controlID: 29
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,15 +229,15 @@ MonoBehaviour:
     y: 348
     width: 1052
     height: 271
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.22159582, y: -0.021580592, z: 0.0049033756, w: -0.9748874}
     speed: 2
-    m_Value: {x: -0.22159585, y: -0.021580594, z: 0.004903376, w: -0.9748875}
+    m_Value: {x: -0.22159581, y: -0.021580592, z: 0.0049033756, w: -0.9748873}
   m_Size:
     m_Target: 0.41667283
     speed: 2
@@ -371,7 +371,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 102efeffe62efeff9a34feffa234feff0839feffac47feffa854feff3c59feff8064fefff07dfeffd07efeff8484feff8c84fefff288feff9697feff92a4feff26a9feff6ab4fefffcf3feffdcf4feff90fafeff98fafefffefefeffa20dffff9e1affff321fffff762affff4650ffff2651ffffda56ffffe256ffff485bffffec69ffffe876ffff7c7bffffc086ffff06a3ffffe8a3ffff9ca9ffffa4a9ffff0aaeffffaebcffffaac9ffff3eceffff82d9ffff7ae2ffff6cf1ffff9cfbffff00000000b4f900008afc00008c4d0100264e0100
+    m_ExpandedIDs: 9cbcffff7abdffff2ec3ffff36c3ffff9cc7ffff40d6ffff3ce3ffffd0e7ffff14f3ffff9cfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -614,19 +614,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Plugins/Android/assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Plugins/Android/assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\--\Documents\DriveSchool
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 91}
-    m_SelectedIDs: 403b0000
-    m_LastClickedID: 15168
-    m_ExpandedIDs: 0000000046280000d82a0000902c0000602e0000c65f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ea2b0000
+    m_LastClickedID: 11242
+    m_ExpandedIDs: 0000000044280000d82a0000902c0000e02d0000602e0000885f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -654,7 +654,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000046280000d82a0000902c0000602e0000c65f0000
+    m_ExpandedIDs: 0000000044280000d82a0000902c0000e02d0000602e0000885f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
