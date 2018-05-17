@@ -2,30 +2,53 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Text.RegularExpressions;
 public class SwitchTest : MonoBehaviour {
 
-    public Sprite[] images;
-    public string[] texts;
-    public Image picture;
+    Texture2D[] images;
+    string[] texts;
+    public RawImage picture;
     public Text subj;
     public Button[] answers;
-    public string[] textAnswers;
-    public int[] trueAnswers;
+    string[] textAnswers;
+    string[] trueAnswers;
     private int i;
+    public TextAsset textTest1;
+    public TextAsset textAnswers1;
+    public TextAsset trueAnswers1;
     private int countOfRate;
+    string imagePath = "texturesTest";
     private bool clickToResult;
     void Start()
     {
+        Object[] textures = Resources.LoadAll(imagePath);
+       images = new Texture2D[textures.Length];
+        for (int i = 0; i < textures.Length; i++)
+        {
+           images[i] = (Texture2D)textures[i];
+        }
+        string fs = textTest1.text;
+        texts = Regex.Split(fs, "-----");
+        fs = textAnswers1.text;
+        textAnswers = Regex.Split(fs, "-----");
+        fs = trueAnswers1.text;
+        //int number = Convert.ToInt32(value, 10);
+        trueAnswers = Regex.Split(fs, "-----");
         StartCoroutine(switcher());
     }
 
     public IEnumerator switcher()
     {
         int j = 0;
-        for (i = 0; i < images.Length; i++)
+   
+        for (int i = 0; i < texts.Length; i++)
         {
-            picture.sprite = images[i];
             subj.text = texts[i];
+            if (images.Length > i)
+            {
+                picture.texture = images[i];
+            }
+
             countOfRate = 0;
             clickToResult = false;
             answers[0].transform.Find("Check").GetComponent<Image>().enabled = false;
@@ -34,8 +57,9 @@ public class SwitchTest : MonoBehaviour {
             answers[0].GetComponentInChildren<Text>().text = textAnswers[j++];
             answers[1].GetComponentInChildren<Text>().text = textAnswers[j++];
             answers[2].GetComponentInChildren<Text>().text = textAnswers[j++];
-            for(int k=0;k<30 && !clickToResult;k++)
+            for (int k = 0; k < 30 && !clickToResult; k++) {
                 yield return new WaitForSeconds(0.5f);
+            }
         }
         picture.enabled = false;
         subj.text = "Конец теста";
@@ -44,7 +68,8 @@ public class SwitchTest : MonoBehaviour {
     public void click1()
     {
         answers[0].transform.Find("Check").GetComponent<Image>().enabled = true;
-        if (trueAnswers[i] == 1)
+        subj.text = "!!"+ trueAnswers[i]+"!!";
+if (trueAnswers[i].Equals ("1"))
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
@@ -56,7 +81,7 @@ public class SwitchTest : MonoBehaviour {
     public void click2()
     {
         answers[1].transform.Find("Check").GetComponent<Image>().enabled = true;
-        if (trueAnswers[i] == 2)
+        if (trueAnswers[i].Equals("2"))
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
@@ -68,7 +93,7 @@ public class SwitchTest : MonoBehaviour {
     public void click3()
     {
         answers[2].transform.Find("Check").GetComponent<Image>().enabled = true;
-        if (trueAnswers[i] == 3)
+        if (trueAnswers[i].Equals("3"))
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
@@ -76,6 +101,7 @@ public class SwitchTest : MonoBehaviour {
         }
         else PlayerPrefs.SetInt("Answer." + i, 0);
         clickToResult = true;
+
     }
 
 }

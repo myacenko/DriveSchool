@@ -368,7 +368,10 @@
     <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
     <None Include="Assets\Plugins\Android\assets\placeholder.txt" />
+    <None Include="Assets\Resources\TextAnswers1.txt" />
     <None Include="Assets\Resources\TextStudy1.txt" />
+    <None Include="Assets\Resources\TextTest1.txt" />
+    <None Include="Assets\Resources\TrueAnswers1.txt" />
     <None Include="Assets\third_party_notices.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

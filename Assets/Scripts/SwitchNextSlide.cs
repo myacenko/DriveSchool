@@ -9,7 +9,7 @@ public class SwitchNextSlide : MonoBehaviour {
     public Text subj;
     string[] lines;
     public RawImage rImg;
-    string imagePath = "textures";
+    string imagePath = "texturesStudy";
     Texture2D[] typedTextures;
     void Start()
     {
