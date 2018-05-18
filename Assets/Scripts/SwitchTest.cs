@@ -12,7 +12,7 @@ public class SwitchTest : MonoBehaviour {
     public Button[] answers;
     string[] textAnswers;
     string[] trueAnswers;
-    private int i;
+    private int i=0;
     public TextAsset textTest1;
     public TextAsset textAnswers1;
     public TextAsset trueAnswers1;
@@ -68,8 +68,9 @@ public class SwitchTest : MonoBehaviour {
     public void click1()
     {
         answers[0].transform.Find("Check").GetComponent<Image>().enabled = true;
-        subj.text = "!!"+ trueAnswers[i]+"!!";
-if (trueAnswers[i].Equals ("1"))
+        char[] charsToTrim = { ' ', '\n' };
+        subj.text = "!" + trueAnswers[i].Trim(charsToTrim) + "!";
+        if (trueAnswers[i].Trim(charsToTrim).Equals ("1"))
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
@@ -81,7 +82,8 @@ if (trueAnswers[i].Equals ("1"))
     public void click2()
     {
         answers[1].transform.Find("Check").GetComponent<Image>().enabled = true;
-        if (trueAnswers[i].Equals("2"))
+        char[] charsToTrim = { ' ', '\n' }; 
+        if (trueAnswers[i].Trim(charsToTrim).Equals("2"))
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
@@ -93,7 +95,8 @@ if (trueAnswers[i].Equals ("1"))
     public void click3()
     {
         answers[2].transform.Find("Check").GetComponent<Image>().enabled = true;
-        if (trueAnswers[i].Equals("3"))
+        char[] charsToTrim = { ' ', '\n' };
+        if (trueAnswers[i].Trim(charsToTrim).Equals("3"))
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
