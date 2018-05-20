@@ -335,6 +335,7 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackedRemote.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
     <Compile Include="Assets\Scripts\AllScoreBoard.cs" />
+    <Compile Include="Assets\Scripts\BeaconController.cs" />
     <Compile Include="Assets\Scripts\Boom.cs" />
     <Compile Include="Assets\Scripts\CheckItems.cs" />
     <Compile Include="Assets\Scripts\ClearAllPrefs.cs" />

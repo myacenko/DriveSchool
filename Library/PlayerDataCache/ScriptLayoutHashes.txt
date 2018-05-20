@@ -186,3 +186,4 @@ e6139c3cfb1a4136f1c833022be63c02 Assembly-CSharp.dll:.EndLesson
 59df83248622909e8ee9dcc4baff510c Assembly-CSharp.dll:.TrafficLightsControl
 63476c3cd723e567416f94104be571f7 Assembly-CSharp.dll:.LoadScene
 a1a3731f022cba6b169dc26bb51a0805 Assembly-CSharp.dll:.SwitchTest
+f22af238a3fef5c97e7c2cc2304e3c08 Assembly-CSharp.dll:.BeaconController

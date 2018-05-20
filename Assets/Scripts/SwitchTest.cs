@@ -41,7 +41,7 @@ public class SwitchTest : MonoBehaviour {
     {
         int j = 0;
    
-        for (int i = 0; i < texts.Length; i++)
+        for (i = 0; i < texts.Length; i++)
         {
             subj.text = texts[i];
             if (images.Length > i)
@@ -69,8 +69,8 @@ public class SwitchTest : MonoBehaviour {
     {
         answers[0].transform.Find("Check").GetComponent<Image>().enabled = true;
         char[] charsToTrim = { ' ', '\n' };
-        subj.text = "!" + trueAnswers[i].Trim(charsToTrim) + "!";
-        if (trueAnswers[i].Trim(charsToTrim).Equals ("1"))
+        int x = System.Int32.Parse(trueAnswers[i].Trim(charsToTrim));
+        if (x==1)
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
@@ -82,21 +82,24 @@ public class SwitchTest : MonoBehaviour {
     public void click2()
     {
         answers[1].transform.Find("Check").GetComponent<Image>().enabled = true;
-        char[] charsToTrim = { ' ', '\n' }; 
-        if (trueAnswers[i].Trim(charsToTrim).Equals("2"))
+        char[] charsToTrim = { ' ', '\n' };
+        int x = System.Int32.Parse(trueAnswers[i].Trim(charsToTrim));
+        if (x == 2)
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
             PlayerPrefs.SetInt("AllTestScore", countOfRate + PlayerPrefs.GetInt("AllTestScore", 0));
         }
         else PlayerPrefs.SetInt("Answer." + i, 0);
+        //subj.text = "!" + x + "!" + trueAnswers[i] + "!";
         clickToResult = true;
     }
     public void click3()
     {
         answers[2].transform.Find("Check").GetComponent<Image>().enabled = true;
         char[] charsToTrim = { ' ', '\n' };
-        if (trueAnswers[i].Trim(charsToTrim).Equals("3"))
+        int x = System.Int32.Parse(trueAnswers[i].Trim(charsToTrim));
+        if (x == 3)
         {
             PlayerPrefs.SetInt("Answer." + i, 1);
             countOfRate++;
