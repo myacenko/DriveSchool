@@ -162,6 +162,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 7b7745d8d1ab7fe13f98bfffbf52c18d Assembly-CSharp.dll:.OVRWaitCursor
 ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRChromaticAberration
 3390da0fa445ab5d676b24efb56cf5c0 Assembly-CSharp.dll:.OVRSceneSampleController
+f22af238a3fef5c97e7c2cc2304e3c08 Assembly-CSharp.dll:.BeaconController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -186,4 +187,3 @@ e6139c3cfb1a4136f1c833022be63c02 Assembly-CSharp.dll:.EndLesson
 59df83248622909e8ee9dcc4baff510c Assembly-CSharp.dll:.TrafficLightsControl
 63476c3cd723e567416f94104be571f7 Assembly-CSharp.dll:.LoadScene
 a1a3731f022cba6b169dc26bb51a0805 Assembly-CSharp.dll:.SwitchTest
-f22af238a3fef5c97e7c2cc2304e3c08 Assembly-CSharp.dll:.BeaconController

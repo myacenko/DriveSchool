@@ -57,7 +57,7 @@ public class SwitchTest : MonoBehaviour {
             answers[0].GetComponentInChildren<Text>().text = textAnswers[j++];
             answers[1].GetComponentInChildren<Text>().text = textAnswers[j++];
             answers[2].GetComponentInChildren<Text>().text = textAnswers[j++];
-            for (int k = 0; k < 30 && !clickToResult; k++) {
+            for (int k = 0; k < 60 && !clickToResult; k++) {
                 yield return new WaitForSeconds(0.5f);
             }
         }
