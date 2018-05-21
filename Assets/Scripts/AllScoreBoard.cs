@@ -17,7 +17,7 @@ public class AllScoreBoard : MonoBehaviour {
         }
         if (PlayerPrefs.GetInt("AllTestScore", 0) != 0)
         {
-            resultText.text = "Вы набрали на тестировании: " + PlayerPrefs.GetInt("AllTestScore", 0) + "\n" + "Максимальный балл: 2";
+            resultText.text = "Вы набрали на тестировании: " + PlayerPrefs.GetInt("AllTestScore", 0) + "\n" + "Максимальный балл: 20";
             result.enabled = true;
         }
     }

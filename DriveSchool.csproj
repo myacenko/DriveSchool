@@ -344,6 +344,7 @@
     <Compile Include="Assets\Scripts\ExitFromSchool.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\NPCDrive.cs" />
+    <Compile Include="Assets\Scripts\ResultToFace.cs" />
     <Compile Include="Assets\Scripts\ShowResult.cs" />
     <Compile Include="Assets\Scripts\SwitchNextSlide.cs" />
     <Compile Include="Assets\Scripts\SwitchTest.cs" />
