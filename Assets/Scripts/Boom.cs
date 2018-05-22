@@ -8,6 +8,7 @@ public class Boom : MonoBehaviour {
     public AudioClip boomSound;
     public Light TrafficLight;
     public string currentScene;
+    private bool isCheck,isStop,isCrash;
     void Start()
     {
         boomPlayerAS.playOnAwake = false;
@@ -21,24 +22,39 @@ public class Boom : MonoBehaviour {
             return;
         if (hit.gameObject.CompareTag("Check0"))
         {
+            if (!isCheck) { 
+            isCheck = true;
             PlayerPrefs.SetInt(currentScene + "_Check0", 1);
             GetComponent<EndLesson>().ShowResult();
+            }
             return;
         }
         if (hit.gameObject.CompareTag("Check1"))
         {
+            if (!isCheck) { 
+            isCheck = true;
             PlayerPrefs.SetInt(currentScene + "_Check1", 1);
             GetComponent<EndLesson>().ShowResult();
-            return;
-        }
-        if (hit.gameObject.CompareTag("StopLine") )
-        {
-            if(TrafficLight.intensity > 0.0f) { 
-            PlayerPrefs.SetInt(currentScene + "_StopLine", 1);
             }
             return;
         }
+        if (hit.gameObject.CompareTag("StopLine"))
+        {
+            if (!isStop)
+            {
+                isStop = true;
+                if (TrafficLight.intensity > 0.0f)
+                {
+                    PlayerPrefs.SetInt(currentScene + "_StopLine", 1);
+                }
+            }
+            return;
+        }
+        if (!isCrash) { 
+        isCrash = true;
         PlayerPrefs.SetInt(currentScene + "_Crash", 1);
+       
+        }
         boomPlayerAS.Play();
     }
 

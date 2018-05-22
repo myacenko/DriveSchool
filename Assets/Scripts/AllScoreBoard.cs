@@ -12,7 +12,7 @@ public class AllScoreBoard : MonoBehaviour {
         result.enabled = false;
         if (PlayerPrefs.GetInt("AllDriveScore",0)!=0)
         {
-            resultText.text = "Вы набрали за вождение: " + PlayerPrefs.GetInt("AllDriveScore", 0) + "\n" + "Максимальный балл: 10";
+            resultText.text = "Вы набрали за вождение: " + PlayerPrefs.GetInt("AllDriveScore", 0) + "\n" + "Максимальный балл: 6";
             result.enabled = true;
         }
         if (PlayerPrefs.GetInt("AllTestScore", 0) != 0)

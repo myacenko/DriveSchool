@@ -132,6 +132,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 201a74c04db670228d716f90f7c8c198 Assembly-CSharp.dll:.OVROverlay
 553028ff2845bac843ab4c26e781c024 Assembly-CSharp.dll:.OVRProgressIndicator
 a97206b1f732dc0aa9b23a14352f4399 Assembly-CSharp.dll:.OVRPlatformMenu
+737611b20aaa280a97001e56519465b3 Assembly-CSharp.dll:.ResultToFace
 02de1c2c7eb2ce0fad3b53f5726ad2d7 Assembly-CSharp.dll:.NPCDrive
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OVRDebugInfo
 9a93f748b7c6fda90f20cf8d995df907 Assembly-CSharp.dll:.OVRResetOrientation
@@ -187,4 +188,3 @@ e6139c3cfb1a4136f1c833022be63c02 Assembly-CSharp.dll:.EndLesson
 59df83248622909e8ee9dcc4baff510c Assembly-CSharp.dll:.TrafficLightsControl
 63476c3cd723e567416f94104be571f7 Assembly-CSharp.dll:.LoadScene
 a1a3731f022cba6b169dc26bb51a0805 Assembly-CSharp.dll:.SwitchTest
-737611b20aaa280a97001e56519465b3 Assembly-CSharp.dll:.ResultToFace
